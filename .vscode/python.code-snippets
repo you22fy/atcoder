@@ -1,0 +1,44 @@
+{
+  "template": {
+    "prefix": "tmpl",
+    "body": [
+      "def main():",
+      "    return",
+      "if __name__ == '__main__':",
+      "    main()"
+    ],
+    "description": "Python template"
+  },
+  "n = int(input())": {
+    "prefix": "n=",
+    "body": ["n = int(input())"],
+    "description": "n = int(input())"
+  },
+  "s = input()": {
+    "prefix": "s=",
+    "body": ["s = input()"],
+    "description": "s = input()"
+  },
+  "a,b,c = map(int, input().split())": {
+    "prefix": "a,b,c=",
+    "body": ["a,b,c = map(int, input().split())"],
+    "description": "a,b,c = map(int, input().split())"
+  },
+  "lst = list(map(int, input().split()))": {
+    "prefix": "lst=",
+    "body": ["lst = list(map(int, input().split()))"],
+    "description": "lst = list(map(int, input().split()))"
+  },
+  "h,w=map(int,input().split())": {
+    "prefix": "h,w=",
+    "body": "h,w=map(int,input().split())"
+  },
+  "inf": {
+    "prefix": "inf",
+    "body": "inf = float('inf')"
+  },
+  "print dict": {
+    "prefix": "print dict",
+    "body": ["for k, v in dict.items():", "    print(k, v)"]
+  }
+}
