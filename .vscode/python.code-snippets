@@ -2,8 +2,14 @@
   "template": {
     "prefix": "tmpl",
     "body": [
+      "'''python_template'''",
+      "",
+      "",
       "def main():",
+      "    '''main function'''",
       "    return",
+      "",
+      "",
       "if __name__ == '__main__':",
       "    main()"
     ],
