@@ -4,6 +4,10 @@
     "body": [
       "'''python_template'''",
       "",
+      "import sys",
+      "",
+      "sys.setrecursionlimit(10**9)",
+      "",
       "",
       "def main():",
       "    '''main function'''",
